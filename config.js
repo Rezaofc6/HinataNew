@@ -4,19 +4,25 @@ import { fileURLToPath } from 'url'
 import fs from 'fs'
 import moment from 'moment-timezone'
 
-/**Owner number**/
+/*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6289606790112', '️Reza Ganteng', true],
-  ['6281515696780', 'EzaBot-MD', true]
-  // [number, dia creator/owner?, dia developer?]
-] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
-global.girlfren = [] // Your gf/pacar
+  ['6289606790112', '️Oᴡɴᴇʀ One ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Two ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Three ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Four ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Five ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Six ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6289606790112', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
+]
+global.mods = []
+global.prems = []
+global.girlfren = []
 
-//Api website
-global.APIs = { // API Prefix
-  // name: 'https://website'
+/*Website*/
+global.APIs = {
  amel : 'https://melcanz.com',
  bg : 'http://bochil.ddns.net',
  bsbt : 'https://rest-beni.herokuapp.com',
@@ -29,7 +35,7 @@ global.APIs = { // API Prefix
  jonaz : 'https://jonaz-api-v2.herokuapp.com',
  LeysCoder : 'https://leyscoders-api.herokuapp.com',
  lolhuman : 'https://api.lolhuman.xyz',
- neoxr : 'https://neoxr-api.herokuapp.com',
+ neoxr : 'https://api.neoxr.my.id',
  nrtm : 'https://nurutomo.herokuapp.com',
  nzcha : 'http://nzcha-apii.herokuapp.com',
  pencarikode : 'https://pencarikode.xyz',
@@ -40,8 +46,10 @@ global.APIs = { // API Prefix
  zeks : 'https://api.zeks.xyz',
  zenz : 'https://zenzapis.xyz'
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
+
+/*Apikey*/
+global.APIKeys = {
+ 'https://api.neoxr.my.id' : 'JeJU827J',
  'https://api.lolhuman.xyz' : '9b817532fadff8fc7cb86862',
  'https://api.xteam.xyz' : 'NezukoTachibana281207',
  'https://api.zeks.xyz' : 'apivinz',
@@ -57,70 +65,114 @@ global.APIKeys = { // APIKey Here
  'https://zenzapis.xyz' : 'f9fccfcff1'
 }
 
-//Apikey alpha
+/*Alphakey*/
 let api = ['Gh5QOSGn', 'NaVPLSqV', 'yLwXcHYJ', 'oFmq6PEB', 'vZuOHLdg', 'qwh5dMe6', 'fGBTtQkE']
 let keyalpha = api[Math.floor(Math.random() * api.length)]
 global.apikeys = keyalpha
 
-/*============== NOMOR ==============*/
+/*Number*/
 global.nomorbot = '6281515696780'
 global.nomorown = '6289606790112'
 global.namebot = 'EzaBot-MD'
-global.nameown = 'REZA GANTENG'
+global.nameown = 'Reza Ganteng'
 
-/*============== WATERMARK ==============*/
-global.wm = '                「 EzaBot-MD あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘OWNER - KUN˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ EzaBot-MD'
+/*Watermark*/
+global.wm = '                「 EzaBot-MD あ⁩ 」'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = 'EzaBot-MD'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
-/*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/ccY2Q0k/20220429-191026.jpg' //Main Thumbnail
+/*Thumbnail*/
+global.thumb = 'https://i.ibb.co/ccY2Q0k/20220429-191026.jpg'
 global.imagebot = 'https://telegra.ph/file/793b6accf3758f092742a.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/ccY2Q0k/20220429-191026.jpg', 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg', 'https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
+global.thumbs = ['https://i.ibb.co/ccY2Q0k/20220429-191026.jpg','https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg','https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
+global.fla='https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.flaaa = [
- 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
- 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
- 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
- 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
- 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-]
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
 
 global.thumbnailUrl = [
-  'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
-  'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
-  'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg', 'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
-  'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
-  'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
-]
+'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
+'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
+'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg','https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
+'https://telegra.ph/file/55e5af5f33fbd57104187.jpg','https://telegra.ph/file/af236598456b95884bd15.jpg',
+'https://telegra.ph/file/de92ed4a729887ffc974c.jpg','https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg']
 
-/*============== SOCIAL ==============*/
-global.sig = 'https://instagram.com/itz.reza_official_'
-global.sgh = 'https://github.com/Rezaofc'
-global.sgc = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
-global.sdc = 'https://github.com/Rezaofc'
-global.snh = 'https://github.com/Rezaofc'
-
-/*============== HENTAI ==============*/ 
-//OPTIONS
-global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
-global.premnsfw = true // Nsfw Mode Premium?
-
-//Ini cuma simpenan owner kanna kok :v
-global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://telegra.ph/file/05c1b22ee83bcd7723b4d.jpg','https://telegra.ph/file/1d886f66a44871205335f.jpg','https://telegra.ph/file/54d19a9094dc509370bf9.jpg','https://telegra.ph/file/e649475bcde78a9977ee5.jpg','https://telegra.ph/file/32ba20b6139b129c559c8.jpg','https://telegra.ph/file/948434cda49e4af5d9f11.jpg','https://telegra.ph/file/6f353c68533283fe79871.jpg','https://telegra.ph/file/de268ca9b01101acf2b8a.jpg','https://telegra.ph/file/fc6c5b2ae9a20c4256e7f.jpg', 'https://telegra.ph/file/efb70bb0988640f841742.jpg', 'https://telegra.ph/file/77d03fff530a2bcff3bf7.jpg','https://telegra.ph/file/6e4623464a659dd8d902b.jpg','https://telegra.ph/file/685aa39f0cb0f2c4fd85b.jpg','https://telegra.ph/file/10454b9ad693e1eefea58.jpg','https://telegra.ph/file/7de8ce5c290c3d8be0856.jpg','https://telegra.ph/file/8d7c4eadb7a4722747074.jpg','https://telegra.ph/file/ccc5f8eaac0f30919ef6c.jpg','https://telegra.ph/file/95f4b43439d7888f15ea5.jpg','https://telegra.ph/file/9c2a750db555bd2fad1f3.jpg', 'https://telegra.ph/file/efc5f7e637744fd6bfec2.jpg','https://telegra.ph/file/3a5231aade245665633bd.jpg','https://telegra.ph/file/2ecfc76feb26ec1eab99b.jpg','https://telegra.ph/file/dabb70983b4e833d98344.jpg','https://telegra.ph/file/75193a893e38fc580afe6.jpg','https://telegra.ph/file/217aa0f4ec76273808aa4.jpg','https://telegra.ph/file/8a35d3446b97ae22c7b23.jpg','https://telegra.ph/file/092df720701575a7ceaaa.jpg','https://telegra.ph/file/a65184a676cd648de34c3.jpg',
-'https://telegra.ph/file/180e28807e78419d45537.jpg','https://telegra.ph/file/140eff27be983e0cd6781.jpg','https://telegra.ph/file/1581b791e16d0029e16b5.jpg','https://telegra.ph/file/6a4b36372b4f265bae3bc.jpg','https://telegra.ph/file/093caff422f194f00bc6c.jpg','https://telegra.ph/file/2294b7ab49eca8a8046b2.jpg','https://telegra.ph/file/869224d1c417e8b5c8ff1.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg','https://telegra.ph/file/1889878933264d16c58bf.jpg','https://telegra.ph/file/735aeb47d9c4aa87aaaf3.jpg','https://telegra.ph/file/fcf861516db09dda164e0.jpg','https://telegra.ph/file/355d96d7e06d109435f67.jpg']
+/*Thumbnail*/
+global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg',
+'https://telegra.ph/file/05c1b22ee83bcd7723b4d.jpg',
+'https://telegra.ph/file/1d886f66a44871205335f.jpg',
+'https://telegra.ph/file/54d19a9094dc509370bf9.jpg',
+'https://telegra.ph/file/e649475bcde78a9977ee5.jpg',
+'https://telegra.ph/file/32ba20b6139b129c559c8.jpg',
+'https://telegra.ph/file/948434cda49e4af5d9f11.jpg',
+'https://telegra.ph/file/6f353c68533283fe79871.jpg',
+'https://telegra.ph/file/de268ca9b01101acf2b8a.jpg',
+'https://telegra.ph/file/fc6c5b2ae9a20c4256e7f.jpg',
+'https://telegra.ph/file/efb70bb0988640f841742.jpg',
+'https://telegra.ph/file/77d03fff530a2bcff3bf7.jpg',
+'https://telegra.ph/file/6e4623464a659dd8d902b.jpg',
+'https://telegra.ph/file/685aa39f0cb0f2c4fd85b.jpg',
+'https://telegra.ph/file/10454b9ad693e1eefea58.jpg',
+'https://telegra.ph/file/7de8ce5c290c3d8be0856.jpg',
+'https://telegra.ph/file/8d7c4eadb7a4722747074.jpg',
+'https://telegra.ph/file/ccc5f8eaac0f30919ef6c.jpg',
+'https://telegra.ph/file/95f4b43439d7888f15ea5.jpg',
+'https://telegra.ph/file/9c2a750db555bd2fad1f3.jpg',
+'https://telegra.ph/file/efc5f7e637744fd6bfec2.jpg',
+'https://telegra.ph/file/3a5231aade245665633bd.jpg',
+'https://telegra.ph/file/2ecfc76feb26ec1eab99b.jpg',
+'https://telegra.ph/file/dabb70983b4e833d98344.jpg',
+'https://telegra.ph/file/75193a893e38fc580afe6.jpg',
+'https://telegra.ph/file/217aa0f4ec76273808aa4.jpg',
+'https://telegra.ph/file/8a35d3446b97ae22c7b23.jpg',
+'https://telegra.ph/file/092df720701575a7ceaaa.jpg',
+'https://telegra.ph/file/a65184a676cd648de34c3.jpg',
+'https://telegra.ph/file/180e28807e78419d45537.jpg',
+'https://telegra.ph/file/140eff27be983e0cd6781.jpg',
+'https://telegra.ph/file/1581b791e16d0029e16b5.jpg',
+'https://telegra.ph/file/6a4b36372b4f265bae3bc.jpg',
+'https://telegra.ph/file/093caff422f194f00bc6c.jpg',
+'https://telegra.ph/file/2294b7ab49eca8a8046b2.jpg',
+'https://telegra.ph/file/869224d1c417e8b5c8ff1.jpg',
+'https://telegra.ph/file/a78443f0ee887f46808d7.jpg',
+'https://telegra.ph/file/1889878933264d16c58bf.jpg',
+'https://telegra.ph/file/735aeb47d9c4aa87aaaf3.jpg',
+'https://telegra.ph/file/fcf861516db09dda164e0.jpg',
+'https://telegra.ph/file/355d96d7e06d109435f67.jpg']
 global.hyuri = ['https://telegra.ph/file/5d908f4a17515a15c6202.jpg']
-global.hLokun = ['https://telegra.ph/file/8902f4fc550727a62e99f.jpg','https://telegra.ph/file/6a6a40e924c16a8f0de03.jpg', 'https://telegra.ph/file/b035d3038a0b124f1d846.jpg', 'https://telegra.ph/file/9d475f7852bf6f6193c80.jpg']
-global.hloli = ['https://telegra.ph/file/872c360a7104d86752650.jpg', 'https://telegra.ph/file/f6bbb53620374257bfa51.jpg','https://telegra.ph/file/9b76375f3869440818d57.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg']
-global.hneko = ['https://telegra.ph/file/805a37b1e9a963e7d7ecf.jpg', 'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg','https://telegra.ph/file/b6905b77e6c7732592a13.jpg', 'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png', 'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
-global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg', 'https://telegra.ph/file/cc8255d5b989eef587af2.jpg','https://telegra.ph/file/30d2e7375996abd9cfee3.jpg', 'https://telegra.ph/file/78980c90c44a95a1d30fa.jpg', 'https://telegra.ph/file/2ac5d8ccf23e73eaa5bfa.jpg']
-global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://telegra.ph/file/b6905b77e6c7732592a13.jpg','https://telegra.ph/file/9da45a352eb4c40e5d641.jpg', 'https://telegra.ph/file/59e78846ee365975ee6e3.jpg','https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg','https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
-global.hwaifu = [
-'https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
+global.hLokun = ['https://telegra.ph/file/8902f4fc550727a62e99f.jpg',
+'https://telegra.ph/file/6a6a40e924c16a8f0de03.jpg',
+'https://telegra.ph/file/b035d3038a0b124f1d846.jpg',
+'https://telegra.ph/file/9d475f7852bf6f6193c80.jpg']
+global.hloli = ['https://telegra.ph/file/872c360a7104d86752650.jpg',
+'https://telegra.ph/file/f6bbb53620374257bfa51.jpg',
+'https://telegra.ph/file/9b76375f3869440818d57.jpg',
+'https://telegra.ph/file/a78443f0ee887f46808d7.jpg']
+global.hneko = ['https://telegra.ph/file/805a37b1e9a963e7d7ecf.jpg',
+'https://telegra.ph/file/f9c4d97477b647cf57a2b.jpg',
+'https://telegra.ph/file/b6905b77e6c7732592a13.jpg',
+'https://telegra.ph/file/9f82c432d0ba4cfffda9a.png',
+'https://telegra.ph/file/484083949d4bfd763b8cf.jpg']
+global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg',
+'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg',
+'https://telegra.ph/file/cc8255d5b989eef587af2.jpg',
+'https://telegra.ph/file/30d2e7375996abd9cfee3.jpg',
+'https://telegra.ph/file/78980c90c44a95a1d30fa.jpg',
+'https://telegra.ph/file/2ac5d8ccf23e73eaa5bfa.jpg']
+global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg',
+'https://telegra.ph/file/b6905b77e6c7732592a13.jpg',
+'https://telegra.ph/file/9da45a352eb4c40e5d641.jpg',
+'https://telegra.ph/file/59e78846ee365975ee6e3.jpg',
+'https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg',
+'https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
+global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
 'https://i.pinimg.com/originals/85/4d/bb/854dbbd30304cd69f305352f0183fad0.jpg',
 'https://i.pinimg.com/originals/32/2c/a4/322ca456fa2cdec4b717895a65adfa8d.jpg',
 'https://i.pinimg.com/originals/f2/dd/cc/f2ddccd5a1b89d2302cf75c6520c58dd.png',
@@ -319,10 +371,20 @@ global.hwaifu = [
 'https://i.pinimg.com/originals/8d/ad/58/8dad58f3b258b3d7f2e913cb4561d99f.jpg',
 'https://i.pinimg.com/originals/8d/04/9a/8d049a1e6951491b24ea4c364f2459bc.jpg',
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
-'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg'
-]
+'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
-/*=========== TYPE DOCUMENT ===========*/
+/*Link*/
+global.sig = 'https://instagram.com/itz.reza_official_'
+global.sgh = 'https://github.com/Rezaofc'
+global.sgc = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
+global.sdc = 'https://github.com/Rezaofc'
+global.snh = 'https://github.com/Rezaofc'
+
+/*Nsfw*/
+global.optsnsfw = true
+global.premnsfw = true
+
+/*Type*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 global.ddocx = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -331,118 +393,125 @@ global.drtf = 'text/rtf'
 
 global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
-/*=========== FAKE SIZE ===========*/
-global.fsizedoc = '99999999999999' // default 10TB
+/*Fake*/
+global.fsizedoc = '99999999999999'
 global.fpagedoc = '999'
 
-/*=========== HIASAN ===========*/
-// DEFAULT MENU
-global.dmenut = '❏═┅═━–〈' //top
-global.dmenub = '┊•' //body
-global.dmenub2 = '┊' //body for info cmd on Default menu
-global.dmenuf = '┗––––––––––✦' //footer
+/*Hiasan*/
+global.dmenut = '❏═┅═━–〈'
+global.dmenub = '┊•'
+global.dmenub2 = '┊'
+global.dmenuf = '┗––––––––––✦'
 
-// COMMAND MENU
+/*Hiasan*/
 global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
-global.cmenut = '❏––––––『' //top
-global.cmenuh = '』––––––' //header
-global.cmenub = '┊✦ ' //body
-global.cmenuf = '┗━═┅═━––––––๑\n' //footer
-global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
-global.pmenus = '✦' //pembatas menu selector
+global.cmenut = '❏––––––『'
+global.cmenuh = '』––––––'
+global.cmenub = '┊✦ '
+global.cmenuf = '┗━═┅═━––––––๑\n'
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
+global.pmenus = '✦'
 
-global.htki = '––––––『' //hiasan title kiri
-global.htka = '』––––––' //hiasan title kanan
+global.htki = '––––––『'
+global.htka = '』––––––'
 global.lopr = 'Ⓟ'
 global.lolm = 'Ⓛ'
-global.htjava = '⫹⫺' //hiasan Doang :v
+global.htjava = '⫹⫺'
 
-/*============== STICKER WM ==============*/
+/*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎ EzaBot-MD\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Created By'
-global.author = "EzaBot-MD X Rezaofc"
-global.multiplier = 69 // The higher, The harder levelup
+global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
+global.author = 'Syarifah01 X RezaOfc'
+global.multiplier = 69
 
-/*============== ERR ==============*/
+/*Pesan*/
 global.eror = 'Erorr...'
 global.wait = 'Wait...'
 global.render = 'Render...'
-global.webs = 'https://s.id/Cerdasin62/'//Your Website
-global.logo = "https://i.pinimg.com/564x/1d/10/8e/1d108e56fb96be61d9b48f7e17dd95b7.jpg"//Your logo
-global.gcwangsaf = "https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf"//Link Group whatsapp
+global.webs = 'https://s.id/Cerdasin62/'
+global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
+global.gcwangsaf = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
 
-/*============== PAYMENT ==============*/
-global.saweria = "-"// website saweria.co
-global.dana = ["089606790112"]
-global.pulsa = ["089606790112"]//pulsa here
-global.trakteer = "-"//Link url https://
-global.paypal = "nb.boruto.official@gmail.com"//paypal email
-global.gopay = "081515696780"//Numver for Payment digital Gopay Gojek
-
-/*============== PAYMENT ==============*/
+/*Donasi*/
+global.saweria = 'https://saweria.co/wudysoft'
+global.dana = ['089606790112']
+global.pulsa = ['089606790112']
+global.trakteer = '-'
+global.paypal = 'nb.boruto.official@gmail.com'
+global.gopay = '089606790112'
 global.pdana = '089606790112'
 global.povo = '-'
-global.pgopay = '081515696780'
+global.pgopay = '089606790112'
 global.ppulsa = '089606790112'
-global.ppulsa2 = '089606790112'
+global.ppulsa2 = '081515696780'
 global.psaweria = '-'
 
-//Rpg
+/*Emoji*/
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
+      agility: '🤸‍♂️',
+      arc: '🏹',
+      armor: '🥼',
+      bank: '🏦',
+      bibitanggur: '🍇',
+      bibitapel: '🍎',
+      bibitjeruk: '🍊',
+      bibitmangga: '🥭',
+      bibitpisang: '🍌',
+      bow: '🏹',
+      bull: '🐃',
+      cat: '🐈',
+      chicken: '🐓',
+      common: '📦',
+      cow: '🐄',
+      crystal: '🔮',
+      darkcrystal: '♠️',
+      diamond: '💎',
+      dog: '🐕',
+      dragon: '🐉',
+      elephant: '🐘',
+      emerald: '💚',
+      exp: '✉️',
+      fishingrod: '🎣',
+      fox: '🦊',
+      gems: '🍀',
+      giraffe: '🦒',
+      gold: '👑',
+      health: '❤️',
+      horse: '🐎',
+      intelligence: '🧠',
+      iron: '⛓️',
+      keygold: '🔑',
+      keyiron: '🗝️',
+      knife: '🔪',
+      legendary: '🗃️',
       level: '🧬',
       limit: '🌌',
-      health: '❤️',
-      strength: '🦹‍♀️',
-      mana: '🪄',
-      stamina: '⚡',
-      agility: '🤸‍♂️',
-      intelligence: '🧠',
-      exp: '✉️',
-      pointxp: '📧',
-      money: '💵',
-      potion: '🥤',
-      gems: '🍀',
-      crystal: '🔮',
-      diamond: '💎',
-      darkcrystal: '♠️',
-      common: '📦',
-      uncommon: '🎁',
-      mythic: '🗳️',
-      legendary: '🗃️',
-      pet: '🎁',
-      trash: '🗑',
-      armor: '🥼',
-      sword: '🗡️',
-      arc: '🏹',
-      bow: '🏹',
-      magicwand: '⚕️',
-      keyiron: '🗝️',
-      keygold: '🔑',
-      knife: '🔪',
-      wood: '🪵',
-      rock: '🪨',
-      string: '🕸️',
-      horse: '🐎',
-      cat: '🐈',
-      dog: '🐕',
-      fox: '🦊',
-      cow: '🐄',
-      bull: '🐃',
-      tiger: '🐅',
       lion: '🦁',
-      giraffe: '🦒',
-      elephant: '🐘',
-      snake: '🐍',
-      dragon: '🐉',
-      chicken: '🐓',
+      magicwand: '⚕️',
+      mana: '🪄',
+      money: '💵',
+      mythic: '🗳️',
+      pet: '🎁',
       petFood: '🍖',
-      iron: '⛓️',
-      gold: '👑',
-      emerald: '💚'
+      pickaxe: '⛏️',
+      pointxp: '📧',
+      potion: '🥤',
+      rock: '🪨',
+      snake: '🐍',
+      stamina: '⚡',
+      strength: '🦹‍♀️',
+      string: '🕸️',
+      superior: '💼',
+      sword: '⚔️',
+      tiger: '🐅',
+      trash: '🗑',
+      uncommon: '🎁',
+      upgrader: '🧰',
+      wood: '🪵'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
@@ -454,6 +523,6 @@ global.rpg = {
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
   unwatchFile(file)
-  console.log(chalk.redBright("Update 'config.js'"))
+  console.log(chalk.redBright('Update config.js'))
   import(`${file}?update=${Date.now()}`)
 })
