@@ -9,49 +9,49 @@ let handler = async (m) => {
     let user = global.db.data.users[who]
 let tqto = `*▸ - - - —「 BIG THANKS TO 」— - - - ◂*
 
-*Adiwajshing:*
+*❉ Adiwajshing:*
 https://github.com/adiwajshing
 
-*Nurutomo:*
+*❉ Nurutomo:*
 https://github.com/Nurutomo
 
-*Istikmal:* 
+*❉ Istikmal:* 
 https://github.com/BochilGaming
 
-*Ariffb:*
+*❉ Ariffb:*
 https://github.com/Ariffb25
 
-*Ilman:*
+*❉ Ilman:*
 https://github.com/ilmanhdyt
 
-*Amirul:*
+*❉ Amirul:*
 https://github.com/amiruldev20
 
-*Rasel:*
+*❉ Rasel:*
 https://github.com/raselcomel
 
-*Fatur:*
+*❉ Fatur:*
 https://github.com/Ftwrr
 
-*Rominaru:*
+*❉ Rominaru:*
 https://github.com/Rominaru
 
-*Kannachann:*
+*❉ Kannachann:*
 https://github.com/Kannachann
 
-*The.sad.boy01:*
+*❉ The.sad.boy01:*
 https://github.com/kangsad01
 
-*Ameliascrf:*
+*❉ Ameliascrf:*
 https://github.com/Ameliascrf
 
-*Fokus ID:*
+*❉ Fokus ID:*
 https://github.com/Fokusdotid
 
 *❉ Rezaofc:*
 https://github.com/Rezaofc
 
-*AmmarBN:*
+*❉ AmmarBN:*
 https://github.com/AmmarrBN
 `
 conn.reply(m.chat, tqto, m, { contextInfo: { externalAdReply: {
