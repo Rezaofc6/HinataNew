@@ -69,7 +69,6 @@ let weem = `*Gc Bot* :https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf
 'caption': cap,
 'footer': weem,
 'buttons': [
-{'buttonId': usedPrefix + 'allmenu','buttonText': {'displayText': `${em.getRandom()} All Menu`},'type': 1},
 {'buttonId': usedPrefix + 'menulist','buttonText': {'displayText': `${em.getRandom()} List Menu`},'type': 1}
 ],
 'headerType': 6}
