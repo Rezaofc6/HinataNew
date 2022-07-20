@@ -420,9 +420,9 @@ global.htjava = '⫹⫺'
 
 /*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `EzaBot-MD\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'Syarifah01 X RezaOfc'
+global.author = 'EzaBot-MD X RezaOfc'
 global.multiplier = 69
 
 /*Pesan*/
