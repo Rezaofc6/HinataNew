@@ -1,6 +1,7 @@
 import { promises } from 'fs'
 import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
+import Canvas from "discord-canvas"
 
 let tags = {
   'main': 'Main',
@@ -36,7 +37,7 @@ let tags = {
   'jadibot': 'Jadi Bot',
   'host': 'Host',
   'Baileys': 'Baileys',
-  'nocategory': 'No Category',
+  '': 'No Category',
 }
 let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚜', '⚝', '⚚', '♪'])}`
 const defaultMenu = {
@@ -52,14 +53,16 @@ Hai, *%name!*
 *Fitur:* %totalfeatures command
 
 %readmore
-*Support me:* _https://s.id/Cerdasin62_
+*Support me:*
+https://instagram.com/itz.reza_official_
 *Note:*
 _Jika Respon Tidak Muncul Kemungkinan Terjadi Error_
 `.trimStart(),
-  header: `${cmenut} *%category* ${cmenuh}`,
+  header: '▣═━–〈 *%category* 〉–━═▣',
   body: `┊${emot} %cmd %islimit %isPremium`,
-  footer: `${cmenuf}`,
-  after: `${cmenua}`,
+  footer: '┗–––––––––––━═▣\n',
+  after: `⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ 
+`,
 }
 let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
   try {
@@ -183,20 +186,68 @@ let handler = async (m, { conn, groupMetadata, usedPrefix: _p, __dirname }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    //
     
-    conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, 'Hinata Group', who.split`@`[0], 'Your Number', [
-      ['🎀 Menu', '/menu'],
-      ['🪄 Owner', '/owner'],
-      ['🔖 Test', '/ping']
+    conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, 'Group EzaBot-MD', who.split`@`[0], 'Your Number', [
+      ['Menu', '/menu'],
+      ['Owner', '/owner'],
+      ['Test', '/ping']
     ], null, false, { mentions: [text] })
     
+    /*
+    try {
+ let wel = await new Canvas.Welcome()
+  .setUsername(`${name}`)
+  .setDiscriminator(`${money} Money`)
+  .setMemberCount(`${groupMetadata.participants.length}`)
+  .setGuildName(`${groupMetadata.subject}`)
+  .setAvatar(`${pp}`)
+  .setColor("border", "#000000")
+  .setColor("username-box", "#000000")
+  .setColor("discriminator-box", "#000000")
+  .setColor("message-box", "#000000")
+  .setColor("title", "#FFFFFF")
+  .setColor("avatar", "#000000")
+  .setBackground("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7c3n7snGnpzS676fXaU2yxSjGsFNrCURXw&usqp=CAU")
+  .toAttachment();
+
+  conn.sendHydrated2(m.chat, text.trim(), wm, wel.toBuffer(), webs, 'Website', gcwangsaf, 'Group WhatsApp', [
+      ['Donate', '/donasi'],
+      ['Owner', '/owner'],
+      ['Test', '/ping']
+    ], m)
+    } catch {
+    let wel = await new Canvas.Welcome()
+  .setUsername(`${name}`)
+  .setDiscriminator(`${exp} Exp`)
+  .setMemberCount(`Money ${money}`)
+  .setGuildName(`${global.author}`)
+  .setAvatar(`${pp}`)
+  .setColor("border", "#000000")
+  .setColor("username-box", "#000000")
+  .setColor("discriminator-box", "#000000")
+  .setColor("message-box", "#000000")
+  .setColor("title", "#FFFFFF")
+  .setColor("avatar", "#000000")
+  .setBackground("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7c3n7snGnpzS676fXaU2yxSjGsFNrCURXw&usqp=CAU")
+  .toAttachment();
+  
+    conn.sendHydrated2(m.chat, text.trim(), wm, wel.toBuffer(), webs, 'Website', gcwangsaf, 'Group WhatsApp', [
+      ['Donate', '/donasi'],
+      ['Owner', '/owner'],
+      ['Test', '/ping']
+    ], m)
+    }
+    */
+                //
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
   }
 }
-
-handler.command = /^(allmenu|help|\?)$/i
+handler.help = ['menu', 'help', '?']
+handler.tags = ['main']
+handler.command = /^(menu|help|\?)$/i
 
 handler.exp = 3
 
