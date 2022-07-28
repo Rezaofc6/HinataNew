@@ -392,9 +392,9 @@ const listMessage = {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     conn.sendHydrated(m.chat, text.trim(), wm + '\n\n' + botdate, hwaifu.getRandom(), gcwangsaf, 'Group Bot official', who.split`@`[0], em.getRandom() + ' Your Number', [
-      ['🎀 Menu', '/menu'],
-      ['🪄 Owner', '/owner'],
-      ['🔖 Test', '/ping']
+      ['≧∇≦ Back', '/menu'],
+      ['^ω^ Owner', '/owner'],
+      ['≧ω≦ donasi', '/donasi']
     ], null, false, { mentions: [text] })
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
