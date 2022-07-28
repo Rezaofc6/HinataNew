@@ -276,8 +276,8 @@ let tek = `*Hai ${conn.getName(m.sender)}* 👋
 *💲 Money:* *RP* ${money}
 *🏆 Level* ${level}
 *🎋 Role:* ${role}
-*📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n Ketik /inv untuk melihat Inventory RPG
-`
+*📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n *Gc Bot* :https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf
+*Ig Owner* :https://instagram.com/itz.reza_official_`
 const listMessage = {
   text: tek,
   footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
