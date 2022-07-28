@@ -9,7 +9,7 @@ export async function before(m, { conn, args, usedPrefix, command, isAdmin, isBo
     const isAntiToxic = isToxic.exec(m.text)
     
     if (chat.antiToxic && isAntiToxic) {
-        await conn.sendButton(m.chat, `*Kata-Kata luwh Aneh Banh!*${isBotAdmin ? '' : '\n\n_Lanjutkan Bakatmu Dek Gpp Kok🗿 _'}`, author, ['off antitoxic', '/disable antitoxic'], m)
+        await conn.sendButton(m.chat, `*Kata-Kata luwh Aneh Banh!*${isBotAdmin ? '' : '\n\n_Lanjutkan Bakatmu Dek Gpp Kok🗿_'}`, author, ['off antitoxic', '/disable antitoxic'], m)
         if (isBotAdmin && bot.restrict) {
             // await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
     global.db.data.users[m.sender].limit = 0
