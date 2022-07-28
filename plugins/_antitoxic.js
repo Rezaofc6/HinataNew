@@ -9,20 +9,15 @@ export async function before(m, { conn, args, usedPrefix, command, isAdmin, isBo
     const isAntiToxic = isToxic.exec(m.text)
     
     if (chat.antiToxic && isAntiToxic) {
-        await conn.sendButton(m.chat, `*Kata Aneh Terdeteksi!*${isBotAdmin ? '' : '\n\n_Bot bukan atmin_'}`, author, ['off antitoxic', '/disable antitoxic'], m)
+        await conn.sendButton(m.chat, `*Kata-Kata luwh Aneh Banh!*${isBotAdmin ? '' : '\n\n_Lanjutkan Bakatmu Dek Gpp Kok🗿 _'}`, author, ['off antitoxic', '/disable antitoxic'], m)
         if (isBotAdmin && bot.restrict) {
             // await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
     global.db.data.users[m.sender].limit = 0
     global.db.data.users[m.sender].exp = 0
     global.db.data.users[m.sender].money = 0
     
-    await conn.sendButton(m.chat, `*Anda kena sanksi*
-    
-    Karena Mengtoxic
-    Limit anda direset
-    
-    Ketik *.limit* untuk cek limit`, wm, null, [
-        ['Ngechit', `${usedPrefix}ngechit`]
+    await conn.sendButton(m.chat, `Lanjutkan Bakatmu Dek 🗿`, wm, null, [
+        ['imyah', `${usedPrefix}afk Ngocok Sampai Crot`]
     ], m)
         } else if (!bot.restrict) return m.reply('Gk bisa gw kick!')
     }
