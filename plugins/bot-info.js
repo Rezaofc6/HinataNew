@@ -80,7 +80,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 }
 handler.help = ['botinfo']
 handler.tags = ['info']
-handler.command = /^(botinfo|bot|info|bi)$/i
+handler.command = /^(❧ E ͥz ͣa ͫ  ۣۜꪶß͢͢͢oTzꫂ⁩)$/i
 
 export default handler
 
