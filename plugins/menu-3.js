@@ -399,7 +399,7 @@ const listMessage = {
   }
 }
 
-handler.command = /^(menulist)$/i
+handler.command = /^(menu|help|\?)$/i
 
 handler.exp = 3
 
