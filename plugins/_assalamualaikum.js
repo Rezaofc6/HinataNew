@@ -6,7 +6,7 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
 
 conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: {title: global.wm, body: bottime, sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg')  }}})
 }
-handler.customPrefix = /^(assalamualaikum|salam)$/i
+handler.customPrefix = /^(assalamualaikum|Assalamu'alaikum|salam)$/i
 handler.command = new RegExp
 
 export default handler
