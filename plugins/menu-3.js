@@ -270,14 +270,17 @@ let ktx = ktnya.getRandom()
 ]
 
 let tek = `*Hai ${conn.getName(m.sender)}* 👋
-
-*YOUR PROFILE*
-*🏷️ Nama:* *(${name})* ${registered ? '(' + name + ') ' : ''} ( @${who.split("@")[0]} )
-*💲 Money:* *RP* ${money}
-*🏆 Level* ${level}
-*🎋 Role:* ${role}
-*📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n *Gc Bot* :https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf
-*Ig Owner* :https://instagram.com/itz.reza_official_`
+╭══════════ ⳹❋ཻུ۪۪⸙ 
+║ *YOUR PROFILE*
+╰══════════ ⳹❋ཻུ۪۪⸙ 
+*⫹⫺ Nama:* *(${name})* ${registered ? '(' + name + ') ' : ''} ( @${who.split("@")[0]} )
+*⫹⫺ Money:* *RP* ${money}
+*⫹⫺ Level:* ${level}
+*⫹⫺ Role:* ${role}
+*⫹⫺ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n ───────── 
+*Gc Bot* :https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf
+*Ig Owner* :https://instagram.com/itz.reza_official_
+─────────`
 const listMessage = {
   text: tek,
   footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
