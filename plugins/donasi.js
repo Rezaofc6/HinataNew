@@ -6,8 +6,7 @@ let str = ` ${conn.getName(m.sender)} Want Support Bot?
 
 *PAYMENT ↓*
 _*Pulsa(3):*_ ${pulsa}
-
-_*Dana/ovo:*_ ${dana}
+_*Dana:*_ ${dana}
 *DONASI DENGAN FOLLOW IG OWNER JUGA BOLEH*
 https://instagram.com/itz.reza_official_
 Setelah melakukan donasi kirim bukti pembayaran ke owner
