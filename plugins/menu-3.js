@@ -19,7 +19,7 @@ Hai, *%name!*
 *Fitur:* %totalfeatures command
 
 %readmore
-*Support me:* https://instagram.com/itz.reza_official_
+*Support me:* nekopoi.com
 *Note:*
 _Jika Respon Tidak Muncul Kemungkinan Terjadi Error_
 `.trimStart(),
