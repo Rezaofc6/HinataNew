@@ -1,1 +1,1 @@
-worker: node.~db mongodb+srv://RezaOfcV9:reza12345@cluster0.7o3dukz.mongodb.net/?retryWrites=true&w=majority
+worker : npm install && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
