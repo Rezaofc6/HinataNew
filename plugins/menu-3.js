@@ -276,7 +276,7 @@ let tek = `_HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
 ╭══════════ ⳹❋ཻུ۪۪⸙ 
 ║ *YOUR PROFILE*
 ╰══════════ ⳹❋ཻུ۪۪⸙ 
-*⫹⫺ Nama:* *(${name})* ${registered ? '(' + name + ') ' : ''} ( @${who.split("@")[0]} )
+*⫹⫺ Nama:* ( @${who.split("@")[0]} )
 *⫹⫺ Money:* *RP* ${money}
 *⫹⫺ Level:* ${level}
 *⫹⫺ Role:* ${role}
