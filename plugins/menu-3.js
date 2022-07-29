@@ -252,19 +252,19 @@ let ktx = ktnya.getRandom()
 	{title: `${em.getRandom()} ${emot} Menu Main ${emot}`, rowId: ".? main", description: ktx},
 	{title: `${em.getRandom()} ${emot} Menu Maker ${emot}`, rowId: ".? maker", description: ktx},
 	{title: `${em.getRandom()} ${emot} Menu Nocategory ${emot}`, rowId: ".menulist nocategory", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Nsfw ${emot}`, rowId: ".menulist nsfw", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Nulis ${emot}`, rowId: ".menulist nulis", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Owner ${emot}`, rowId: ".menulist owner", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Premium ${emot}`, rowId: ".menulist premium", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Primbon ${emot}`, rowId: ".menulist primbon", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Quotes ${emot}`, rowId: ".menulist quotes", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Quran ${emot}`, rowId: ".menulist quran", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Random ${emot}`, rowId: ".menulist random", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu RPG ${emot}`, rowId: ".menulist rpg", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Sticker ${emot}`, rowId: ".menulist sticker", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Tools ${emot}`, rowId: ".menulist tools", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu Vote ${emot}`, rowId: ".menulist vote", description: ktx},
-	{title: `${em.getRandom()} ${emot} Menu XP ${emot}`, rowId: ".menulist xp", description: ktx}
+	{title: `${em.getRandom()} ${emot} Menu Nsfw ${emot}`, rowId: ".? nsfw", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Nulis ${emot}`, rowId: ".? nulis", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Owner ${emot}`, rowId: ".? owner", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Premium ${emot}`, rowId: ".? premium", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Primbon ${emot}`, rowId: ".? primbon", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Quotes ${emot}`, rowId: ".? quotes", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Quran ${emot}`, rowId: ".? quran", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Random ${emot}`, rowId: ".? random", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu RPG ${emot}`, rowId: ".? rpg", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Sticker ${emot}`, rowId: ".? sticker", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Tools ${emot}`, rowId: ".? tools", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu Vote ${emot}`, rowId: ".? vote", description: ktx},
+	{title: `${em.getRandom()} ${emot} Menu XP ${emot}`, rowId: ".? xp", description: ktx}
 	]
   }
 ]
