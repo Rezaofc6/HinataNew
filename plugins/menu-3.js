@@ -286,10 +286,10 @@ let tek = `_HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
 ─────────`
 const listMessage = {
   text: tek,
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: '⎙ *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`,
+  buttonText: `KLIK DISINI (=∩_∩=)`,
   sections
 }
   if (teks == '404') {
