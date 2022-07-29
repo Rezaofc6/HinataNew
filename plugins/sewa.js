@@ -1,7 +1,20 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `*MAU SEWA BOT? 20K 1BULAN chat wa.me/6289606790112 untuk beli*`
+let info = `*• SEWA BOT & UP TO PREMIUM •*
+        
+1. Grup / 30 Hari
+Rp. 15.000 Dana
+Rp. 15.000 Pulsa
+2. Premium / 30 Hari
+Rp. 10.000 Dana
+Rp. 10.000 Pulsa
+3. Premium + Grup / 30 Hari
+Rp. 20.000 Dana
+Rp. 20.000 Pulsa
+
+*BELI?  CHAT OWNER*
+wa.me/6289606790112`
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 /*const message = {
