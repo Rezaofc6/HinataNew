@@ -269,7 +269,8 @@ let ktx = ktnya.getRandom()
   }
 ]
 
-let tek = `_HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
+let tek = `
+_HAI KAK ${conn.getName(m.sender)}_ （＾ω＾）
 *Saya Adalah Robot Yang Di Beri Nama Eza Bot*
 *Saya Di Kembangkan Oleh Seseorang Yang Bernama RezaOfc*
 
@@ -288,7 +289,7 @@ const listMessage = {
   text: tek,
   footer: '⎙ *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
   mentions: await conn.parseMention(tek),
-  title: `${htki} *LIST MENU* ${htka}`,
+  title: `${htki} *BOT WA 2022* ${htka}`,
   buttonText: `KLIK DISINI (=∩_∩=)`,
   sections
 }
