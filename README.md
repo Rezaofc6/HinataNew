@@ -1,4 +1,4 @@
-# HinataNew
+# EzaBot-MD
 
 <p align="center">
 	<img src="https://p4.wallpaperbetter.com/wallpaper/888/673/160/naruto-hinata-hy%C5%ABga-naruto-uzumaki-starry-sky-hd-wallpaper-preview.jpg" width="75%" style="margin-left: auto;margin-right: auto;display: block;">
@@ -6,10 +6,10 @@
 
 </p>
 <p align="center">
-<a href="#"><img title="HinataNew" src="https://img.shields.io/badge/HinataNew-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="EzaBot-MD" src="https://img.shields.io/badge/HinataNew-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/AyGemuy"><img title="AyGemuy" src="https://img.shields.io/badge/Author-AyGemuy-red.svg?style=for-the-badge&logo=github"></a>
+<a href=""><img title="AyGemuy" src="https://img.shields.io/badge/Author-AyGemuy-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 </p>
