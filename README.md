@@ -9,7 +9,7 @@
 <a href="#"><img title="EzaBot-MD" src="https://img.shields.io/badge/EzaBot-MD-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href=""><img title="RezaOfc" src="https://img.shields.io/badge/Author-AyGemuy-red.svg?style=for-the-badge&logo=github"></a>
+<a href=""><img title="RezaOfc" src="https://img.shields.io/badge/Author-RezaOfc-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 </p>
