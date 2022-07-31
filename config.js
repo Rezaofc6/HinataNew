@@ -71,7 +71,7 @@ let keyalpha = api[Math.floor(Math.random() * api.length)]
 global.apikeys = keyalpha
 
 /*Number*/
-global.nomorbot = '6281515696780'
+global.nomorbot = '6283815019820'
 global.nomorown = '6289606790112'
 global.namebot = 'EzaBot-MD'
 global.nameown = 'Reza Ganteng'
