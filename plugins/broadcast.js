@@ -1,25 +1,24 @@
-import { randomBytes } from 'crypto'
-
-let handler = async (m, { conn, text }) => {
-  let chats = Object.entries(conn.chats).filter(([_, chat]) => chat.isChats).map(v => v[0])
-  let cc = conn.serializeM(text ? m : m.quoted ? await m.getQuotedObj() : false || m)
-  let teks = text ? text : cc.text
+let handler  = async (m, { conn, text }) => {
+  let chats = Object.keys(await conn.chats)
   conn.reply(m.chat, `_Mengirim pesan broadcast ke ${chats.length} chat_`, m)
   for (let id of chats) {
-  await delay(1500)
-  await conn.sendHydrated(id, "*「 " + author + " Broadcast 」* \n\n" + text, wm, logo, sgc, 'GROUP WHATSAPP', null, null, [[null, null]], m)
-  }
-  m.reply('Selesai Broadcast All Chat :)')
+       let bcbg = 'https://database.tioclkp02.repl.co/1920b808c70288df5bbe1.png'
+       await conn.send2ButtonImg(id, bcbg, text.trim(), wm, 'Thanks Info', 'thanks', 'Owner', '.owner', m)
+     }
+  m.reply('*Broadcast selesai*')
 }
-handler.help = ['broadcast', 'bc'].map(v => v + ' <teks>')
+handler.help = ['broadcast','bc'].map(v => v + ' <teks>')
 handler.tags = ['owner']
 handler.command = /^(broadcast|bc)$/i
-
 handler.owner = true
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
 
-export default handler
+handler.admin = false
+handler.botAdmin = false
 
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-const delay = time => new Promise(res => setTimeout(res, time))
-const randomID = length => randomBytes(Math.ceil(length * .5)).toString('hex').slice(0, length)
+handler.fail = null
+
+module.exports = handler
